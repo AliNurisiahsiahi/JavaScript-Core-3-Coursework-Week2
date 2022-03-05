@@ -2,7 +2,7 @@
 
 Let's make a randomized dog photo gallery!
 
-Write a function that makes an API call to `https://dog.ceo/api/breeds/image/random`. It should trigger after clicking a button in your webpage. Every time the button is clicked it should append a new dog image to the DOM.
+Write a function that makes an API call to `https://dog.ceo/api/breeds/irandommage/`. It should trigger after clicking a button in your webpage. Every time the button is clicked it should append a new dog image to the DOM.
 
 - Create an `index.html` file that will display your random image
 - Add 2 `<button>` and 1 `<ul>` element, either in the HTML or through JavaScript
