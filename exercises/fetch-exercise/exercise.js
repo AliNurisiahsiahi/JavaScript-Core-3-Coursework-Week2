@@ -27,4 +27,4 @@ fetch("https://codeyourfuture.herokuapp.com/api/greetings")
     greetingText.innerText = greeting
   })
   .catch(err => console.log("some thing gose wrong"));
-  })
+  
