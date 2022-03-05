@@ -26,8 +26,5 @@ fetch("https://codeyourfuture.herokuapp.com/api/greetings")
     let greetingText = document.getElementById("greeting-text")
     greetingText.innerText = greeting
   })
-  .catch(err => {
-        const errorMessage = document.createElement("p");
-        errorMessage.innerText = error;
-        ul.appendChild(errorMessage)
+  .catch(err => console.log("some thing gose wrong"));
   })
